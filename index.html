@@ -5,13 +5,13 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>QUIZ</title>
 
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="index.css?0.3">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="index.css?0.4">
 </head>
 <body>
    <div class="row navbar py-4" >
@@ -31,11 +31,11 @@
       </h5>
    </div>
 
-   <div class="col-12 col-md-8" id="contenedor-inicio">
+   <div class="col-12 col-md-8 pb-4" id="contenedor-inicio">
       <p class="text-center p-1 p-md-5 my-5 text-center">
          Las preguntas serán evaluadas por un puntaje de 0 - 3 para saber qué personaje eres y tu diagnóstico.
       </p> 
-      <div class="contenedor-boton-inicio w-50 m-auto p-3 text-center">
+      <div class="contenedor-boton-inicio col-10 col-sm-8 col-md-6 m-auto p-3 text-center">
          <a id="btn-inicio" href="#" class="fw-bold" style="color: #d3e7c3 !important;">COMENZAR</a>
       </div>
 
@@ -47,12 +47,12 @@
          <div class="carousel-inner">
 
             <!-- --------- PREGUNTA NÚMERO 1° --------- -->
-            <div class="carousel-item active">
+            <div class="carousel-item p-1 p-md-2 active">
                <div class="pregunta">
                   <h4 class="text-center title">
                      1.	¿Cómo te sientes el día de hoy?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-1" id="pre-1-alt-1" value="0">
                         <label class="form-check-label" for="pre-1-alt-1">
@@ -82,12 +82,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 2° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      2. ¿Qué frase te describe mejor?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-2" id="pre-2-alt-1" value="0">
                         <label class="form-check-label" for="pre-2-alt-1">
@@ -117,12 +117,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 3° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      3. ¿Qué te gusta hacer en tus tiempos libres?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-3" id="pre-3-alt-1" value="0">
                         <label class="form-check-label" for="pre-3-alt-1">
@@ -152,12 +152,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 4° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      4. Si pudieses hacer lo que sea ahorita, ¿qué sería?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-4" id="pre-4-alt-1" value="0">
                         <label class="form-check-label" for="pre-4-alt-1">
@@ -187,12 +187,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 5° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      5. ¿Cuál es tu mayor miedo?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-5" id="pre-5-alt-1" value="0">
                         <label class="form-check-label" for="pre-5-alt-1">
@@ -222,12 +222,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 6° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      6. ¿Qué es lo que más te enoja/irrita?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-6" id="pre-6-alt-1" value="0">
                         <label class="form-check-label" for="pre-6-alt-1">
@@ -257,12 +257,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 7° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      7. ¿Cuál es tu momento favorito del día?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-7" id="pre-7-alt-1" value="0">
                         <label class="form-check-label" for="pre-7-alt-1">
@@ -292,12 +292,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 8° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      8. ¿Cuál es tu comida favorita?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-8" id="pre-8-alt-1" value="0">
                         <label class="form-check-label" for="pre-8-alt-1">
@@ -327,12 +327,12 @@
             </div>
 
             <!-- --------- PREGUNTA NÚMERO 9° --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="pregunta">
                   <h4 class="text-center title">
                      9. ¿Qué eres?
                   </h4>
-                  <div class="contenedor-alternativas">
+                  <div class="contenedor-alternativas px-1 px-md-5">
                      <div class="form-check">
                         <input class="form-check-input" type="radio" name="pregunta-9" id="pre-9-alt-1" value="0">
                         <label class="form-check-label" for="pre-9-alt-1">
@@ -362,7 +362,7 @@
             </div>
 
             <!-- --------- RESULTADO --------- -->
-            <div class="carousel-item">
+            <div class="carousel-item p-1 p-md-2">
                <div class="resultado">
                   <h4 class="text-center title">
                      resultado:
@@ -402,18 +402,18 @@
 
    <div id="contenedor-resultado" class="col-12 col-md-8 mx-auto bg-light">
       <p class="text-center mx-auto mt-2 p-1 p-md-5 silkscreen-regular">
-         Las enfermedades mentales son una condición real. La variedad de estas condiciones no puede sintetizarse en personajes romantizados de la cultura mediática. 
+         Las enfermedades mentales son una condición real. La variedad de estas condiciones no pueden sintetizarse en personajes romantizados de la cultura mediática. 
          Las personas que las padecen sufren las consecuencias de este tipo de estigmatizaciones. Un diagnóstico jamás podrá darse a través de una forma virtual. No eres un personaje, eres una persona; si requieres ayuda busca un profesional.
       </p>
 
-      <div class="d-flex flex-row justify-content-around">
-         <div class="cuadro  text-center px-5 py-5 ">
+      <div class="d-flex flex-column flex-md-row justify-content-around">
+         <div class="cuadro text-center px-2 px-md-5 py-5 mb-2">
             <a id="" href="#" class="fw-bold" style="color: #d3e7c3 !important;">
                Línea de ayuda Ecuador (Anima EC)<br>
                +593 98 878 3425
             </a>
          </div>
-         <div class="cuadro  text-center px-5 py-5 ">
+         <div class="cuadro text-center px-2 px-md-5 py-5 mb-2">
             <a id="" href="#" class="fw-bold" style="color: #d3e7c3 !important;">
                Línea de ayuda México (--)<br>
                ---
