@@ -1,9 +1,15 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
 body{
    background-color: #400c60;
    background-image: url('image/body_background.gif');
    font-family: "Silkscreen", serif;
    font-weight: 400;
    font-style: normal;
+   overflow-x: hidden; /* Oculta cualquier desbordamiento horizontal */
+
 }
 
 .silkscreen-regular {
